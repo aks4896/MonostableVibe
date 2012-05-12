@@ -1,0 +1,248 @@
+EESchema Schematic File Version 2  date Sat 12 May 2012 02:15:25 PM EDT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:monoCircuit-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "12 may 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_2 P1
+U 1 1 4F62A090
+P 2000 3000
+F 0 "P1" V 1950 3000 40  0000 C CNN
+F 1 "CONN_2" V 2050 3000 40  0000 C CNN
+	1    2000 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 4F629FF8
+P 5500 3550
+F 0 "C2" H 5550 3650 50  0000 L CNN
+F 1 "CP1" H 5550 3450 50  0000 L CNN
+	1    5500 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C1
+U 1 1 4F629FE6
+P 3850 3550
+F 0 "C1" H 3900 3650 50  0000 L CNN
+F 1 "CP1" H 3900 3450 50  0000 L CNN
+	1    3850 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L POT R6
+U 1 1 4F629F96
+P 5150 2100
+F 0 "R6" H 5150 2000 50  0000 C CNN
+F 1 "POT" H 5150 2100 50  0000 C CNN
+	1    5150 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L POT R5
+U 1 1 4F629F90
+P 4100 2100
+F 0 "R5" H 4100 2000 50  0000 C CNN
+F 1 "POT" H 4100 2100 50  0000 C CNN
+	1    4100 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L MPSA42 Q1
+U 1 1 4F629EF5
+P 3650 4050
+F 0 "Q1" H 3800 3900 60  0000 L CNN
+F 1 "2N3904" H 3800 4200 60  0000 L CNN
+F 2 "TO92-CBE" H 3800 4050 30  0001 C CNN
+	1    3650 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MPSA42 Q2
+U 1 1 4F629EEC
+P 5700 4000
+F 0 "Q2" H 5850 3850 60  0000 L CNN
+F 1 "2N3904" H 5850 4150 60  0000 L CNN
+F 2 "TO92-CBE" H 5850 4000 30  0001 C CNN
+	1    5700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 4F629E9C
+P 5800 2750
+F 0 "R4" V 5880 2750 50  0000 C CNN
+F 1 "R" V 5800 2750 50  0000 C CNN
+	1    5800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 4F629E9A
+P 3550 2750
+F 0 "R1" V 3630 2750 50  0000 C CNN
+F 1 "R" V 3550 2750 50  0000 C CNN
+	1    3550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 4F629E8B
+P 5150 2750
+F 0 "R3" V 5230 2750 50  0000 C CNN
+F 1 "R" V 5150 2750 50  0000 C CNN
+	1    5150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 4F629E86
+P 4100 2750
+F 0 "R2" V 4180 2750 50  0000 C CNN
+F 1 "R" V 4100 2750 50  0000 C CNN
+	1    4100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 4F629E63
+P 5800 2200
+F 0 "D2" H 5800 2300 50  0000 C CNN
+F 1 "LED" H 5800 2100 50  0000 C CNN
+	1    5800 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 4F629E5D
+P 3550 2200
+F 0 "D1" H 3550 2300 50  0000 C CNN
+F 1 "LED" H 3550 2100 50  0000 C CNN
+	1    3550 2200
+	0    1    1    0   
+$EndComp
+Connection ~ 3550 4450
+Wire Wire Line
+	2700 4450 5800 4450
+Wire Wire Line
+	2700 3100 2700 4450
+Wire Wire Line
+	2350 3100 2700 3100
+Wire Wire Line
+	5800 2400 5800 2500
+Wire Wire Line
+	4100 2500 4100 2350
+Connection ~ 5150 3900
+Wire Wire Line
+	5150 3000 5150 4000
+Connection ~ 3550 3550
+Wire Wire Line
+	3550 3000 3550 3850
+Wire Wire Line
+	3550 4450 3550 4250
+Wire Wire Line
+	5800 4450 5800 4200
+Wire Wire Line
+	3850 4050 4750 4050
+Wire Wire Line
+	4750 4050 4750 3550
+Wire Wire Line
+	4750 3550 5300 3550
+Wire Wire Line
+	5800 3000 5800 3800
+Connection ~ 4100 1700
+Wire Wire Line
+	4100 1700 4100 1850
+Wire Wire Line
+	5800 1700 5800 2000
+Wire Wire Line
+	3550 1700 3550 2000
+Wire Wire Line
+	5150 1700 5150 1850
+Connection ~ 5150 1700
+Wire Wire Line
+	4250 2100 4300 2100
+Wire Wire Line
+	4300 2100 4300 1850
+Wire Wire Line
+	4300 1850 4100 1850
+Wire Wire Line
+	5300 2100 5450 2100
+Wire Wire Line
+	5450 2100 5450 1850
+Wire Wire Line
+	5450 1850 5150 1850
+Wire Wire Line
+	5700 3550 5800 3550
+Connection ~ 5800 3550
+Wire Wire Line
+	4500 3550 4500 3900
+Wire Wire Line
+	4500 3900 5150 3900
+Wire Wire Line
+	5150 4000 5500 4000
+Wire Wire Line
+	3550 3550 3650 3550
+Wire Wire Line
+	4100 3000 4100 3200
+Wire Wire Line
+	4100 3200 4250 3200
+Wire Wire Line
+	4250 3200 4250 4050
+Connection ~ 4250 4050
+Wire Wire Line
+	5150 2350 5150 2500
+Wire Wire Line
+	3550 2400 3550 2500
+Wire Wire Line
+	2350 2900 2700 2900
+Wire Wire Line
+	2700 2900 2700 1700
+Wire Wire Line
+	2700 1700 5800 1700
+Connection ~ 3550 1700
+Wire Wire Line
+	4050 3550 4500 3550
+$EndSCHEMATC

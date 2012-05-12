@@ -1,0 +1,166 @@
+# EESchema Netlist Version 1.1 created  Sat 12 May 2012 02:26:11 PM EDT
+(
+ ( /4F62A090 $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 N-000002 )
+  (    2 N-000001 )
+ )
+ ( /4F629FF8 $noname  C2 CP1 {Lib=CP1}
+  (    1 N-000008 )
+  (    2 N-000006 )
+ )
+ ( /4F629FE6 $noname  C1 CP1 {Lib=CP1}
+  (    1 N-000003 )
+  (    2 N-000007 )
+ )
+ ( /4F629F96 $noname  R6 POT {Lib=POT}
+  (    1 N-000001 )
+  (    2 N-000001 )
+  (    3 N-000005 )
+ )
+ ( /4F629F90 $noname  R5 POT {Lib=POT}
+  (    1 N-000001 )
+  (    2 N-000001 )
+  (    3 N-000010 )
+ )
+ ( /4F629EF5 TO92-CBE  Q1 2N3904 {Lib=MPSA42}
+  (    B N-000006 )
+  (    C N-000003 )
+  (    E N-000002 )
+ )
+ ( /4F629EEC TO92-CBE  Q2 2N3904 {Lib=MPSA42}
+  (    B N-000007 )
+  (    C N-000008 )
+  (    E N-000002 )
+ )
+ ( /4F629E9C $noname  R4 R {Lib=R}
+  (    1 N-000009 )
+  (    2 N-000008 )
+ )
+ ( /4F629E9A $noname  R1 R {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000003 )
+ )
+ ( /4F629E8B $noname  R3 R {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000007 )
+ )
+ ( /4F629E86 $noname  R2 R {Lib=R}
+  (    1 N-000010 )
+  (    2 N-000006 )
+ )
+ ( /4F629E63 $noname  D2 LED {Lib=LED}
+  (    1 N-000001 )
+  (    2 N-000009 )
+ )
+ ( /4F629E5D $noname  D1 LED {Lib=LED}
+  (    1 N-000001 )
+  (    2 N-000004 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ CP*
+ SM*
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$component Q1
+ TO92-CBE
+$endlist
+$component Q2
+ TO92-CBE
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ R5 2
+ R5 1
+ R6 2
+ R6 1
+ D2 1
+ P1 2
+ D1 1
+Net 2 "" ""
+ P1 1
+ Q1 E
+ Q2 E
+Net 3 "" ""
+ R1 2
+ C1 1
+ Q1 C
+Net 4 "" ""
+ R1 1
+ D1 2
+Net 5 "" ""
+ R3 1
+ R6 3
+Net 6 "" ""
+ C2 2
+ R2 2
+ Q1 B
+Net 7 "" ""
+ C1 2
+ Q2 B
+ R3 2
+Net 8 "" ""
+ R4 2
+ C2 1
+ Q2 C
+Net 9 "" ""
+ D2 2
+ R4 1
+Net 10 "" ""
+ R5 3
+ R2 1
+}
+#End

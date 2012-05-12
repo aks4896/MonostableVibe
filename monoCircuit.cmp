@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Sat 12 May 2012 02:15:13 PM EDT
+
+BeginCmp
+TimeStamp = /4F629FE6;
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = C_POL_2MM_5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F629FF8;
+Reference = C2;
+ValeurCmp = CP1;
+IdModule  = C_POL_2MM_5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F629E5D;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F629E63;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F62A090;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F629EF5;
+Reference = Q1;
+ValeurCmp = 2N3904;
+IdModule  = TO92-CBE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F629EEC;
+Reference = Q2;
+ValeurCmp = 2N3904;
+IdModule  = TO92-CBE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F629E9A;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F629E86;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F629E8B;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F629E9C;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F629F90;
+Reference = R5;
+ValeurCmp = POT;
+IdModule  = CVAR3X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F629F96;
+Reference = R6;
+ValeurCmp = POT;
+IdModule  = CVAR3X2;
+EndCmp
+
+EndListe
